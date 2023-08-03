@@ -1,0 +1,576 @@
+body{
+    background-color: rgb(92, 91, 91);
+}
+
+#header{
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    padding-top: 0cm;
+}
+
+audio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+#header audio {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    color: rgb(33, 165, 61);
+}
+
+#header h2{
+    text-align: center;
+    margin-top: 40px;
+}
+
+#header h1{
+    text-align: center;
+}
+
+.tulisan-gerak{
+    background-color: rgb(232, 232, 135);
+    color: red;
+}
+
+.content{
+    width: 100%;
+    height: 180px;
+    background-color: rgb(232, 232, 135);
+}
+
+.show-button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 50px;
+    border: 5px solid red;
+}
+
+button:hover{
+    background-color: rgb(238, 219, 6);
+    border: 5px solid black;
+}
+
+.quit-button{
+    width: 60px;
+    height: 60px;
+    position: inherit;
+    display: block;
+    font-size: 30px;
+    color: black;
+    background-color: #969393a3;
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+.quit-button:hover{
+    background-color: gray;
+    border: none;
+}
+
+h3{
+    border-top-style: solid;
+    padding-top: 20px;
+}
+
+#jadwal{
+    display: none;
+    
+}
+
+.jadwaldiv{
+    display: block;
+    width: 90%;
+    height: 590px;
+    background-color: antiquewhite;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#daftar-siswa{
+    display: block;
+    width: 90%;
+    height: 1600px;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-jadwal-pelajaran{
+    display: inline-block;
+    background-color: rgb(215, 250, 226);
+}
+
+.card{
+    width: 100%;
+    height: auto;
+}
+
+.card div{
+    width: 250px;
+    height: auto;
+    background-color: antiquewhite;
+    border: 3px solid black;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card div ul li{
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+.video-lebaran{
+    background-color: white;
+    width: 100%;
+    height: 400px;
+}
+
+.video-lebaran div{
+    background-color: antiquewhite;
+    border: 2px solid black;
+    display: inline-block;
+    width: 40%;
+    height: 90%;
+}
+
+.video-lebaran div h3 {
+    padding-top: 10px;
+}
+
+.video-lebaran div video {
+    width: 520px;
+    height: 320;
+}
+
+.foto-lebaran{
+    background-color: white;
+    width: 100%;
+    height: 400px;
+}
+
+.foto-lebaran div{
+    background-color: antiquewhite;
+    border: 2px solid black;
+    display: inline-block;
+    width: 40%;
+    height: 90%;
+}
+
+.foto-lebaran div h3{
+    padding-top: 10px;
+}
+
+.foto-lebaran div img{
+    width: 640px;
+    height: 350px;
+}
+
+.jadwal-piket {
+    width: 100%;
+    height: 300px;
+    /* background-color: red; */
+    display: block;
+}
+
+.jadwal-piket div{
+    display: inline-block;
+    width: 250px;
+    height: 200px;
+    background-color: antiquewhite;
+    border: 3px solid black;
+}
+
+.jadwal-piket div h4{
+    margin-top: 18px;
+    margin-bottom: -5px;
+    border-bottom: 1px solid black;
+    
+}
+
+.jadwal-piket div ol li{
+    margin-left: 10px;
+    text-align: left;
+    border-bottom: 1px solid black;
+    margin-right: 25px;
+}
+
+
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* pengaturan untuk tablet */
+
+@media screen and (min-width: 721px) and (max-width: 1000px) {
+    body {
+        background-color: rgb(16, 13, 204);
+    }
+    /* untuk memastikan */
+
+    #jadwal {
+        display: none;
+        width: 90%;
+        height: 535px;
+        background-color: white;
+        padding: 10px;
+        text-align: center; 
+        margin-top: 20px;
+        border: 2px solid black;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #daftar-siswa{
+        display: block;
+        width: 90%;
+        height: 2910px;
+        background-color: white;
+        padding: 10px;
+        text-align: center;
+        margin-top: 20px;
+        border: 2px solid black;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card div {
+        width: 250px;
+        height: auto;
+        background-color: antiquewhite;
+        border: 3px solid black;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+
+    .video-lebaran div {
+        background-color: aquamarine;
+        border: 2px solid black;
+        display: inline-block;
+        width: 90%;
+        height: 390px;
+    }
+
+    .video-lebaran {
+        background-color: white;
+        width: 100%;
+        height: 870px;
+    }
+
+    .video-lebaran div video {
+        width: 640px;
+        height: 350px;
+    }
+
+    .quit-button {
+        width: 40px;
+        height: 40px;
+        position: inherit;
+        display: block;
+        font-size: 25px;
+        color: red;
+        background-color: gray;
+        margin-left: auto;
+        margin-right: 20px;
+        padding-bottom: 5px;
+    }
+
+    .foto-lebaran div {
+        background-color: aquamarine;
+        border: 2px solid black;
+        display: inline-block;
+        width: 90%;
+        height: 390px;
+    }
+
+    .foto-lebaran {
+        background-color: white;
+        width: 100%;
+        height: 400px;
+    }
+
+    .foto-lebaran div img {
+        width: 640px;
+        height: 350px;
+    }
+
+    .table-jadwal-pelajaran {
+        background-color: aquamarine;
+    }
+
+    .card div {
+        background-color: aquamarine;
+    }
+
+    .jadwal-piket {
+        width: 100%;
+        height: 300px;
+        /* background-color: red; */
+        display: inline-block;
+    }
+
+    .jadwal-piket div {
+        display: inline-block;
+        width: 250px;
+        height: 200px;
+        background-color: aquamarine;
+        border: 3px solid black;
+        margin-top: 10px;
+    }
+
+    .jadwal-piket div h4{
+        margin-top: 18px;
+        margin-bottom: -5px;
+        border-bottom: 1px solid black;
+    }
+
+    .jadwal-piket div ol li {
+        margin-left: 10px;
+        text-align: left;
+        border-bottom: 1px solid black;
+        margin-right: 25px;
+    }
+}
+
+
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* pengaturan untuk hp */
+
+@media screen and (max-width: 720px)
+
+{
+    body {
+        background-color: lightcyan;
+    }
+
+    /* untuk memastikan */
+
+    #header {
+        background-color: aliceblue;
+        width: 100%;
+        height: 250px;
+    }
+
+    .table-jadwal-pelajaran {
+        background-color: white;
+    }
+
+    .card div {
+        width: 200px;
+        height: auto;
+        background-color: lightcyan;
+        border: 3px solid black;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        font-size: 10px;
+    }
+
+    .quit-button {
+        width: 30px;
+        height: 30px;
+        position: inherit;
+        display: block;
+        font-size: 20px;
+        color: red;
+        background-color: #000000a3;
+        margin-left: auto;
+        margin-right: 20px;
+        padding-bottom: 5px;    
+    }
+
+    table {
+        font-size: 10px;
+        size: 500px;
+    }
+
+    #jadwal {
+        display: none;
+        width: 90%;
+        height: 260px;
+        background-color: white;
+        padding: 10px;
+        text-align: center;
+        margin-top: 20px;
+        border: 2px solid black;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #daftar-siswa {
+        display: block;
+        width: 90%;
+        height: 2610px;
+        background-color: white;
+        padding: 10px;
+        text-align: center;
+        margin-top: 20px;
+        border: 2px solid black;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .video-lebaran {
+        background-color: white;
+        width: 100%;
+        height: 200px;
+    }
+
+    .video-lebaran div {
+        background-color: lightcyan;
+        border: 2px solid black;
+        display: inline-flexbox;
+        width: 90%;
+        height: 90%;
+    }
+
+    .video-lebaran div h3 {
+        padding-top: 10px;
+    }
+
+    .video-lebaran div video {
+        width: 260px;
+        height: 140px;
+    }
+
+    .foto-lebaran {
+        background-color: white;
+        width: 100%;
+        height: 200px;
+    }
+
+    .foto-lebaran div {
+        background-color: lightcyan;
+        border: 2px solid black;
+        display: inline-block;
+        width: 90%;
+        height: 90%;
+    }
+
+    .foto-lebaran div h3 {
+        padding-top: 10px;
+    }
+
+    .foto-lebaran div img {
+        width: 260px;
+        height: 140px;
+    }
+
+    .with-foto-1 {
+        padding-top: 250px;
+    }
+
+    h3 {
+        border-top-style: none;
+        padding-top: 0px;
+    }
+
+    .jadwal-piket {
+        width: 100%;
+        height: 300px;
+        /* background-color: red; */
+        display: inline-block;
+    }
+
+    .jadwal-piket div {
+        display: inline-block;
+        width: 200px;
+        height: 145px;
+        background-color: lightcyan;
+        border: 3px solid black;
+        margin-top: 10px;
+    }
+
+    .jadwal-piket div h4 {
+        margin-top: 18px;
+        margin-bottom: -5px;
+        border-bottom: 1px solid black;
+        font-size: 14px;
+    }
+
+    .jadwal-piket div ol li {
+        margin-left: 10px;
+        text-align: left;
+        border-bottom: 1px solid black;
+        margin-right: 25px;
+        font-size: 10px;
+    }
+
+
+}
+
+
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* pengaturan untuk support laptop punya Saya yang kurang*/
+/* khusus untuk Saya */
+
+@media screen and (min-width: 1081px) and (max-width: 1600px){
+
+    .jadwal-piket div {
+        width: 200px;
+        height: 200px;
+    }
+
+    #daftar-siswa {
+        height: 1650px;
+    }
+
+    .card div {
+        width: 200px;
+        height: 200px;
+        font-size: 14px;
+    }
+
+    .card div ul li {
+        text-align: left;
+        margin-left: -12px;
+        margin-top: 8px;
+        margin-right: 10px;
+    }
+
+    .video-lebaran div video {
+        width: 430px;
+        height: 320px;
+        border-color: white;
+        /* display: none; */
+    }
+
+    .foto-lebaran div img {
+        width: 430px;
+        height: 300px;
+        /* display: none; */
+    }
+
+    .foto-lebaran div h3 {
+        margin-top: 38px;
+    }
+}
